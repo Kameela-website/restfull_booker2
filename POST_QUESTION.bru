@@ -1,0 +1,33 @@
+meta {
+  name: POST_QUESTION
+  type: http
+  seq: 3
+}
+
+post {
+  url: https://booker.govza.com/message
+  body: json
+  auth: none
+}
+
+headers {
+  accept: application/json
+  accept-language: en-GB,en-US;q=0.9,en;q=0.8,cs;q=0.7,fr;q=0.6
+  content-type: application/json
+  cookie: banner=true
+  dnt: 1
+  origin: https://booker.govza.com
+  priority: u=1, i
+  referer: https://booker.govza.com/
+  ^"sec-ch-ua: ^\^"Not/A)Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"126^\^", ^\^"Google
+  sec-ch-ua-mobile: ?0
+  ^"sec-ch-ua-platform: ^\^"Windows^\^"^"
+  sec-fetch-dest: empty
+  sec-fetch-mode: cors
+  sec-fetch-site: same-origin
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+}
+
+body:json {
+  ^"^{^\^"name^\^":^\^"name^\^",^\^"email^\^":^\^"Miso.zima^@gmail.com^\^",^\^"phone^\^":^\^"010101010101010^\^",^\^"subject^\^":^\^"cASVDSVASVASDVSADVASD^\^",^\^"description^\^":^\^"DFAGAEAER
+}
